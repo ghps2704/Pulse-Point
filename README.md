@@ -15,22 +15,22 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 1. **Clone este repositório:**
 
    ```bash
-   ``git clone https://github.com/ghps2704/Pulse-Point.git``
+   git clone https://github.com/ghps2704/Pulse-Point.git
 
 2. **Navegue até o diretório do projeto**
 
-   ``cd Pulse-Point``
+      ``cd Pulse-Point``
    
-4. **Instale as dependências do projeto**
+3. **Instale as dependências do projeto**
 
-  ``npm install``
+      ``npm install``
 
 4. **Executar o servidor**
 
-   ``npm run dev``
+      ``npm run dev``
 
 ## Permissões de Usuário
-- [Médico]:
+- [Médico]():
 Pode visualizar e gerenciar informações médicas e de pacientes.
 
 - [Administrador]:
