@@ -1,29 +1,45 @@
-This template should help get you started developing with Vue 3 in Vite.
+# Pulse Point - Sistema Hospitalar
 
-## Customize configuration
+O Pulse Point é um sistema hospitalar que permite a gestão de informações para médicos, administradores, enfermeiros e pacientes.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Pré-requisitos
 
-## Project Setup
+Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 
-```sh
-npm install
-```
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (normalmente vem com o Node.js)
+- [Vue CLI](https://cli.vuejs.org/)
 
-### Compile and Hot-Reload for Development
+## Instalação
 
-```sh
-npm run dev
-```
+1. **Clone este repositório:**
 
-### Compile and Minify for Production
+   ```bash
+   ``git clone https://github.com/ghps2704/Pulse-Point.git``
 
-```sh
-npm run build
-```
+2. **Navegue até o diretório do projeto**
 
-### Lint with [ESLint](https://eslint.org/)
+   ``cd Pulse-Point``
+3. **Instale as dependências do projeto**
 
-```sh
-npm run lint
-```
+  ``npm install``
+
+4. **Executar o servidor**
+
+   ``npm run dev``
+
+## Permissões de Usuário
+-[Médico]:
+Pode visualizar e gerenciar informações médicas e de pacientes.
+
+-[Administrador]:
+Tem acesso total a todas as funcionalidades do sistema.
+
+-[Enfermeiro]:
+Pode visualizar e gerenciar informações relacionadas aos cuidados com os pacientes.
+
+-[Paciente]:
+Pode visualizar suas próprias informações e histórico médico.
+
+## Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
