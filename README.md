@@ -30,16 +30,16 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
       ``npm run dev``
 
 ## Permissões de Usuário
-- [Médico]():
+- Médico:
 Pode visualizar e gerenciar informações médicas e de pacientes.
 
-- [Administrador]:
+- Administrador:
 Tem acesso total a todas as funcionalidades do sistema.
 
-- [Enfermeiro]:
+- Enfermeiro:
 Pode visualizar e gerenciar informações relacionadas aos cuidados com os pacientes.
 
-- [Paciente]:
+- Paciente:
 Pode visualizar suas próprias informações e histórico médico.
 
 ## Contribuição
