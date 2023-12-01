@@ -12,7 +12,7 @@ const model = ref([
         label: 'Tabs',
         items: [
             { label: 'Médicos', icon: 'pi pi-fw pi-home', to: '/med' },
-            { label: 'Farmacêutico', icon: 'pi pi-fw pi-home', to: '/farm' },
+            { label: 'Enfermeiro', icon: 'pi pi-fw pi-home', to: '/farm' },
             { label: 'Administração', icon: 'pi pi-fw pi-home', to: '/adm' },
             { label: 'Paciente', icon: 'pi pi-fw pi-home', to: '/pacientes' }
         ]

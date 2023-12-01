@@ -36,20 +36,23 @@
                             </div>
                             <a class="font-medium no-underline ml-2 text-right cursor-pointer" style="color: red">Esqueceu a senha?</a>
                         </div>
-                        <Button label="Registrar" class="w-full p-3 text-xl bg-red-700 border-none"></Button>
+                        <Button label="Registrar" @click="pildo()" :loading="loadingbtn" class="w-full p-3 text-xl bg-red-700 border-none"></Button>
                     </div>
                 </div>
             </div>
+            <Toast></Toast>
         </div>
     </div>
 </template>
 
 <script>
 import axios from 'axios';
+import { useToast } from 'primevue/usetoast';
 
 export default {
     data() {
         return {
+            toast: useToast(),
             userData: {
                 name: '',
                 document: '',
@@ -60,11 +63,22 @@ export default {
                 password: ''
             },
             checked: false,
+            loadingbtn: false,
             logoUrl: 'layout/images/logo-white.svg'
         };
     },
 
     methods: {
+        pildo(){
+            this.showSuccess(),
+            this.loadingbtn = true,
+            setTimeout(() => {
+                this.$router.push('/auth/login')
+                }, 2000);
+        },
+        showSuccess() {
+            this.$toast.add({ severity: 'success', summary: 'Conta criada com sucesso', detail: 'Message Content', life: 3000 });
+        },
         async enviarPost() {
             try {
                 // Substitua 'sua_url_aqui' pela URL real para a qual você deseja fazer a solicitação POST

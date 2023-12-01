@@ -39,7 +39,7 @@ const logoUrl = computed(() => {
                             </div>
                             <a class="font-medium no-underline ml-2 text-right cursor-pointer" style="color: red">Esqueceu a senha?</a>
                         </div>
-                        <Button label="Registrar" class="w-full p-3 text-xl bg-red-700 border-none"></Button>
+                        <Button label="Login" @click="this.$router.push('/') " class="w-full p-3 text-xl bg-red-700 border-none"></Button>
                     </div>
                 </div>
             </div>

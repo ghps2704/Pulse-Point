@@ -15,7 +15,7 @@
                     <div>
                         <Button @click="$router.push('/farm')" class="w-10rem h-10rem border-3 flex justify-content-center" outlined>
                             <div class="flex flex-column">
-                                <span>Farmacêutico</span>
+                                <span>Enfermeiro</span>
                                 <img src="layout/images/farm.jpg" alt="" />
                             </div>
                         </Button>
