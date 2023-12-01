@@ -2,7 +2,7 @@
 
 O Pulse Point é um sistema hospitalar que permite a gestão de informações para médicos, administradores, enfermeiros e pacientes.
 
-Este é o Front-End do projeto, o Back-End é o meu repositório: ``git clone https://github.com/ghps2704/system-hospital.git``
+Este repositório é o Front-End do projeto, o Back-End do projeto é: ``git clone https://github.com/ghps2704/system-hospital.git``
 
 ## Pré-requisitos
 
